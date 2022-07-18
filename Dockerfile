@@ -84,7 +84,7 @@ RUN apt-get -y clean \
 	&& rm -rf /var/lib/apt/lists/*
 
 # default publichost, you'll need to set this for passive support
-ENV PUBLICHOST localhost
+ENV PUBLICHOST msvienazureftpserver.southeastasia.azurecontainer.io
 
 # couple available volumes you may want to use
 VOLUME ["/home/ftpusers", "/etc/pure-ftpd/passwd"]
